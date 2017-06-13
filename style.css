@@ -1,0 +1,36 @@
+* {
+    font-family: "Comfortaa";
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #ebebeb;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.02);
+    border-radius: 10px;
+    margin-top: 2%;
+    padding: 2% 0;
+}
+
+#conditions {
+    text-transform: capitalize;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 5%;
+    color: #ebebeb;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px black;
+}
+
+p {
+     font-size: 2em;
+}
+
+a:hover {
+     text-decoration: none;
+     color: #5edae8;
+}
