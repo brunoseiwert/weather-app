@@ -16,7 +16,7 @@ $(document).ready(function() {
             var lat = position.coords.latitude;
             var long = position.coords.longitude;
 
-            var url = "http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + long + "&appid=752aa7af29871d19c49ed03880e5f812";
+            var url = "https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + long + "&appid=752aa7af29871d19c49ed03880e5f812";
 
             $.getJSON(url, function(json) {
 
